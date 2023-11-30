@@ -1,0 +1,17 @@
+body{
+font-family: sans-serif;
+background-color: #5BC750;
+}
+.heading{
+  background-image: url("file:///C:Users/hp/Desktop/PROJECT/images/nature1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+img{
+  display: inline-block;
+  padding-left: 70px;
+}
+footer {
+    margin-top: 20px;
+    text-align: center;
+}

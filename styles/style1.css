@@ -1,0 +1,126 @@
+body{
+  font-family: Arial, sans-serif;
+           margin: 20px;
+ background-image: url("file:///C:/Users/hp/Desktop/PROJECT/images/image3.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.nav1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: brown;
+}
+.nav1 li {
+  float: left;
+}
+
+.nav1 li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  padding-right: 60px;
+}
+
+.nav1 li a:hover {
+  background-color: #1
+}
+.h1{
+  background-color: green;
+  align-items:  center;
+  padding-left: 330px;
+}
+form{
+  background-color: green;
+  width: 70%;
+  height: 300px;
+  margin-left: 100px;
+}
+#submit{
+  margin-left: 170px;
+  background-color: brown;
+}
+fieldset{
+  background-color: brown;
+}
+.desc {
+  font-size: 20px;
+}
+.par{
+
+    background-color: bisque;
+    margin: 30px  20px 10px 20px;
+    text-align:center ;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bold;
+    color: orangered;
+
+}
+.panel {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  border-radius: 50px;
+  color: #fff;
+  cursor: pointer;
+  flex: 0.5;
+  margin: 10px;
+  position: relative;
+  transition: flex 0.7s ease-in;
+
+}
+.panel h3 {
+  font-size: 24px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
+  opacity: 0;
+}
+.panel.active {
+  flex: 5;
+}
+
+.panel.active h3 {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 100vw;
+  }
+
+  .panel:nth-of-type(4),
+  .panel:nth-of-type(5) {
+    display: none;
+  }
+}
+.container {
+    padding-top: 5px;
+  display: flex;
+  width: 90vw;
+}
+.contact-info {
+            border: 1px solid #ddd;
+            padding: 20px;
+            max-width: 100%;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: green;
+        }
+
+
+        .contact-info h2 {
+            color: #333;
+        }
+
+
+        .contact-detail {
+            margin-bottom: 10px;
+        }

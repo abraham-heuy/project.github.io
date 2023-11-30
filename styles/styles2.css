@@ -1,0 +1,62 @@
+body{
+  margin-top: 0;
+  height: 100%;
+  overflow-x: auto;
+  font-family: Arial, sans-serif;
+
+
+}
+.container_content{
+  width: 100%;
+
+}
+.content{
+
+  background-image: url("file:///C:/Users/hp/Desktop/PROJECT/images/image6.jpeg");
+
+  height: 150px;
+  width: 100%;
+background-size:  100%;
+  background-repeat: no-repeat;
+  padding-left: 70px;
+
+}
+.h1{
+  background-color: brown;
+  padding-left: 100px;
+}
+li{
+  color: aqua;
+}
+.article{
+  
+  width: 100%;
+  margin: none;
+}
+.container {
+    display: flex;
+    justify-content: space-around: ;
+    align-items: center ;
+}
+
+.image {
+  width: 100%;
+
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+p {
+    line-height: 1.5;
+    text-align: justify;
+}
+div{
+  width: 100%;
+}

@@ -1,0 +1,41 @@
+body{
+  font-family: sans-serif;
+  margin:0;
+}
+.h1{
+  background-color: brown;
+  padding-left: 330px;
+
+}
+li{
+  color: aqua;
+  font-style: italic;
+}
+.par1{
+  background-image: url("file:///C:/Users/hp/Desktop/PROJECT/images/hiking.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:450px;
+}
+p {
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.image {
+    flex: 0 0 48%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
