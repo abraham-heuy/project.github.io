@@ -1,7 +1,7 @@
 body{
   font-family: Arial, sans-serif;
            margin: 20px;
- background-image: url("../images/image3.jpg");
+ background-image: url("./images/image3.jpg");
    background-repeat: no-repeat;
    background-size: cover;
 }
